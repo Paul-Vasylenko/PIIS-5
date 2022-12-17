@@ -32,9 +32,9 @@ def question2b():
     """
       Prefer the close exit (+1), but avoiding the cliff (-10).
     """
-    answerDiscount = 0.4
-    answerNoise = 0.3
-    answerLivingReward =-1
+    answerDiscount = 0.25
+    answerNoise = 0.2
+    answerLivingReward = 0.0
     return answerDiscount, answerNoise, answerLivingReward
 
 def question2c():
@@ -61,7 +61,7 @@ def question2e():
     """
     answerDiscount = 0.9
     answerNoise = 0
-    answerLivingReward = 1
+    answerLivingReward = 2
     return answerDiscount, answerNoise, answerLivingReward
 
 if __name__ == '__main__':
